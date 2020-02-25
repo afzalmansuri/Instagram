@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{41706139-B72F-4F82-9A61-EAA06065BF04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.Api", "Instagram.Api\Instagram.Api.csproj", "{8C34BB8D-190A-4952-A714-F949B5B14522}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9DBA681D-0482-4BD9-A38F-90CA546B9658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.Infrastructure", "Instagram.Infrastructure\Instagram.Infrastructure.csproj", "{0AF72371-F2CD-4BF4-B7D1-1F02466C24E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D7741D17-BE02-4171-94BF-82C99CAF720A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.Domain", "Instagram.Domain\Instagram.Domain.csproj", "{A522400D-99CD-48D7-81D1-ADF43FAE95BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.BoundedContext", "Instagram.BoundedContext\Instagram.BoundedContext.csproj", "{4C419499-5274-4FA5-B22B-9E6DF77C597D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.UnitOfWork", "Instagram.UnitOfWork\Instagram.UnitOfWork.csproj", "{E254D7ED-6EDC-42CA-8B47-C39CC403996E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{89BCF832-77C4-4461-B49A-C7295E76D9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instagram.Models", "Instagram.Models\Instagram.Models.csproj", "{0FD7AE1F-7420-43A2-9967-A9BEB0069666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C34BB8D-190A-4952-A714-F949B5B14522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C34BB8D-190A-4952-A714-F949B5B14522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C34BB8D-190A-4952-A714-F949B5B14522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C34BB8D-190A-4952-A714-F949B5B14522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF72371-F2CD-4BF4-B7D1-1F02466C24E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF72371-F2CD-4BF4-B7D1-1F02466C24E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF72371-F2CD-4BF4-B7D1-1F02466C24E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF72371-F2CD-4BF4-B7D1-1F02466C24E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A522400D-99CD-48D7-81D1-ADF43FAE95BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A522400D-99CD-48D7-81D1-ADF43FAE95BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A522400D-99CD-48D7-81D1-ADF43FAE95BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A522400D-99CD-48D7-81D1-ADF43FAE95BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C419499-5274-4FA5-B22B-9E6DF77C597D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C419499-5274-4FA5-B22B-9E6DF77C597D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C419499-5274-4FA5-B22B-9E6DF77C597D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C419499-5274-4FA5-B22B-9E6DF77C597D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E254D7ED-6EDC-42CA-8B47-C39CC403996E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E254D7ED-6EDC-42CA-8B47-C39CC403996E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E254D7ED-6EDC-42CA-8B47-C39CC403996E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E254D7ED-6EDC-42CA-8B47-C39CC403996E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD7AE1F-7420-43A2-9967-A9BEB0069666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD7AE1F-7420-43A2-9967-A9BEB0069666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD7AE1F-7420-43A2-9967-A9BEB0069666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD7AE1F-7420-43A2-9967-A9BEB0069666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C34BB8D-190A-4952-A714-F949B5B14522} = {41706139-B72F-4F82-9A61-EAA06065BF04}
+		{0AF72371-F2CD-4BF4-B7D1-1F02466C24E0} = {9DBA681D-0482-4BD9-A38F-90CA546B9658}
+		{A522400D-99CD-48D7-81D1-ADF43FAE95BC} = {D7741D17-BE02-4171-94BF-82C99CAF720A}
+		{4C419499-5274-4FA5-B22B-9E6DF77C597D} = {D7741D17-BE02-4171-94BF-82C99CAF720A}
+		{E254D7ED-6EDC-42CA-8B47-C39CC403996E} = {D7741D17-BE02-4171-94BF-82C99CAF720A}
+		{0FD7AE1F-7420-43A2-9967-A9BEB0069666} = {89BCF832-77C4-4461-B49A-C7295E76D9F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2E53EDC-79A5-49AD-9B9C-674F5F293B6A}
+	EndGlobalSection
+EndGlobal

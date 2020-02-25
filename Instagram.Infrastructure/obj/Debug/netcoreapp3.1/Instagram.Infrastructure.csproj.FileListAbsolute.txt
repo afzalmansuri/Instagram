@@ -1,0 +1,15 @@
+E:\Instagram\Instagram.Infrastructure\bin\Debug\netcoreapp3.1\Instagram.Infrastructure.deps.json
+E:\Instagram\Instagram.Infrastructure\bin\Debug\netcoreapp3.1\Instagram.Infrastructure.dll
+E:\Instagram\Instagram.Infrastructure\bin\Debug\netcoreapp3.1\Instagram.Infrastructure.pdb
+E:\Instagram\Instagram.Infrastructure\bin\Debug\netcoreapp3.1\Instagram.BoundedContext.dll
+E:\Instagram\Instagram.Infrastructure\bin\Debug\netcoreapp3.1\Instagram.Models.dll
+E:\Instagram\Instagram.Infrastructure\bin\Debug\netcoreapp3.1\Instagram.UnitOfWork.dll
+E:\Instagram\Instagram.Infrastructure\bin\Debug\netcoreapp3.1\Instagram.Models.pdb
+E:\Instagram\Instagram.Infrastructure\bin\Debug\netcoreapp3.1\Instagram.BoundedContext.pdb
+E:\Instagram\Instagram.Infrastructure\bin\Debug\netcoreapp3.1\Instagram.UnitOfWork.pdb
+E:\Instagram\Instagram.Infrastructure\obj\Debug\netcoreapp3.1\Instagram.Infrastructure.csprojAssemblyReference.cache
+E:\Instagram\Instagram.Infrastructure\obj\Debug\netcoreapp3.1\Instagram.Infrastructure.AssemblyInfoInputs.cache
+E:\Instagram\Instagram.Infrastructure\obj\Debug\netcoreapp3.1\Instagram.Infrastructure.AssemblyInfo.cs
+E:\Instagram\Instagram.Infrastructure\obj\Debug\netcoreapp3.1\Instagram.Infrastructure.csproj.CopyComplete
+E:\Instagram\Instagram.Infrastructure\obj\Debug\netcoreapp3.1\Instagram.Infrastructure.dll
+E:\Instagram\Instagram.Infrastructure\obj\Debug\netcoreapp3.1\Instagram.Infrastructure.pdb

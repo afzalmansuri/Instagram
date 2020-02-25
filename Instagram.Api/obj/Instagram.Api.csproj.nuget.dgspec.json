@@ -1,0 +1,452 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Instagram\\Instagram.Api\\Instagram.Api.csproj": {}
+  },
+  "projects": {
+    "E:\\Instagram\\Instagram.Api\\Instagram.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Instagram\\Instagram.Api\\Instagram.Api.csproj",
+        "projectName": "Instagram.Api",
+        "projectPath": "E:\\Instagram\\Instagram.Api\\Instagram.Api.csproj",
+        "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
+        "outputPath": "E:\\Instagram\\Instagram.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj"
+              },
+              "E:\\Instagram\\Instagram.Domain\\Instagram.Domain.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.Domain\\Instagram.Domain.csproj"
+              },
+              "E:\\Instagram\\Instagram.Infrastructure\\Instagram.Infrastructure.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.Infrastructure\\Instagram.Infrastructure.csproj"
+              },
+              "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj"
+              },
+              "E:\\Instagram\\Instagram.UnitOfWork\\Instagram.UnitOfWork.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.UnitOfWork\\Instagram.UnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "RxWeb.Core.AspNetCore": {
+              "target": "Package",
+              "version": "[3.0.4-preview1, )"
+            },
+            "RxWeb.Core.Localization": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "RxWeb.Core.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj",
+        "projectName": "Instagram.BoundedContext",
+        "projectPath": "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj",
+        "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
+        "outputPath": "E:\\Instagram\\Instagram.BoundedContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "RxWeb.Core.Data": {
+              "target": "Package",
+              "version": "[3.0.2-preview1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Instagram\\Instagram.Domain\\Instagram.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Instagram\\Instagram.Domain\\Instagram.Domain.csproj",
+        "projectName": "Instagram.Domain",
+        "projectPath": "E:\\Instagram\\Instagram.Domain\\Instagram.Domain.csproj",
+        "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
+        "outputPath": "E:\\Instagram\\Instagram.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj"
+              },
+              "E:\\Instagram\\Instagram.Infrastructure\\Instagram.Infrastructure.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.Infrastructure\\Instagram.Infrastructure.csproj"
+              },
+              "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj"
+              },
+              "E:\\Instagram\\Instagram.UnitOfWork\\Instagram.UnitOfWork.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.UnitOfWork\\Instagram.UnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Instagram\\Instagram.Infrastructure\\Instagram.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Instagram\\Instagram.Infrastructure\\Instagram.Infrastructure.csproj",
+        "projectName": "Instagram.Infrastructure",
+        "projectPath": "E:\\Instagram\\Instagram.Infrastructure\\Instagram.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
+        "outputPath": "E:\\Instagram\\Instagram.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj"
+              },
+              "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj"
+              },
+              "E:\\Instagram\\Instagram.UnitOfWork\\Instagram.UnitOfWork.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.UnitOfWork\\Instagram.UnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "RxWeb.Core": {
+              "target": "Package",
+              "version": "[2.0.3-preview1, )"
+            },
+            "RxWeb.Core.Annotations": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "RxWeb.Core.Cache": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "RxWeb.Core.Sanitizers": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "RxWeb.Core.Security": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj",
+        "projectName": "Instagram.Models",
+        "projectPath": "E:\\Instagram\\Instagram.Models\\Instagram.Models.csproj",
+        "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
+        "outputPath": "E:\\Instagram\\Instagram.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "RxWeb.Core.Annotations": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "RxWeb.Core.Data": {
+              "target": "Package",
+              "version": "[3.0.2-preview1, )"
+            },
+            "RxWeb.Core.Sanitizers": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Instagram\\Instagram.UnitOfWork\\Instagram.UnitOfWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Instagram\\Instagram.UnitOfWork\\Instagram.UnitOfWork.csproj",
+        "projectName": "Instagram.UnitOfWork",
+        "projectPath": "E:\\Instagram\\Instagram.UnitOfWork\\Instagram.UnitOfWork.csproj",
+        "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
+        "outputPath": "E:\\Instagram\\Instagram.UnitOfWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj": {
+                "projectPath": "E:\\Instagram\\Instagram.BoundedContext\\Instagram.BoundedContext.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

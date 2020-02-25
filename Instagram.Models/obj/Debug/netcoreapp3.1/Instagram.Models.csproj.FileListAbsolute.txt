@@ -1,0 +1,8 @@
+E:\Instagram\Instagram.Models\bin\Debug\netcoreapp3.1\Instagram.Models.deps.json
+E:\Instagram\Instagram.Models\bin\Debug\netcoreapp3.1\Instagram.Models.dll
+E:\Instagram\Instagram.Models\bin\Debug\netcoreapp3.1\Instagram.Models.pdb
+E:\Instagram\Instagram.Models\obj\Debug\netcoreapp3.1\Instagram.Models.csprojAssemblyReference.cache
+E:\Instagram\Instagram.Models\obj\Debug\netcoreapp3.1\Instagram.Models.AssemblyInfoInputs.cache
+E:\Instagram\Instagram.Models\obj\Debug\netcoreapp3.1\Instagram.Models.AssemblyInfo.cs
+E:\Instagram\Instagram.Models\obj\Debug\netcoreapp3.1\Instagram.Models.dll
+E:\Instagram\Instagram.Models\obj\Debug\netcoreapp3.1\Instagram.Models.pdb
